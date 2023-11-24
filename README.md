@@ -24,10 +24,23 @@ pip install -r requirements.txt
 ## Struktur Proyek
 
 - `dataset/`: Direktori yang berisi dataset email (`emails.csv`).
+- `laporan-ppt/`: Direktori yang berisi file laporan.
+  - `Spam Email Detector.pptx`: PowerPoint yang berisi slideshow mengenai repo dan model.
+  - `Readme.md`: Berkas penjelasan tentang masalah konversi canva ke PowerPoint. 
+- `saved-model-h5`: Direktori yang berisi model yang sudah di simpan.
+  - `Spam-Detector.h5`: Berkas yang merupakan model yang telah di simpan.
+- `screenshot`: Direktori yang berisi screenshot model.
+  - `akurasi`: Direktori yang berisi screenshot summary akurasi model.
+  - `plot-proses-training` : Direktori yang berisi screenshot tampilan graphic kemampuan model saat proses training.
+  - `tensorboard` : Direktori yang berisi screenshot event tensorboard.
 - `requirements.txt`: Berkas yang berisi daftar dependensi.
 - `source-code/`: Direktori yang berisi file kode sumber.
   - `spam-email-detector.ipynb`: Notebook Jupyter untuk melatih dan mengevaluasi model.
   - `spam-email-detector.py`: Skrip Python untuk tujuan yang sama.
+
+## Authors
+
+- **Ganang Setyo Hadi (2208107010052)**
 
 ## Kontribusi
 
