@@ -1,6 +1,4 @@
-
-```markdown
-# Detektor Email Spam
+## Detektor Email Spam
 
 Repositori ini berisi model untuk deteksi email spam yang diimplementasikan menggunakan Keras dan TensorFlow.
 
